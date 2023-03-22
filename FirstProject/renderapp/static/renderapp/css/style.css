@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(25, 60, 92);
+}
+
+nav {
+    border: 1px groove black;
+    transition: .2s linear;
+    text-align: center;
+    background-color: black;
+    background-repeat: no-repeat;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+p {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a.active {
+    background-color:grey;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style: disc;
+}
+
+table {
+    background-image: url(../img/table\ back2.jpeg);
+    background-size: cover;
+}
